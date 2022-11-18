@@ -918,6 +918,7 @@
                         <p class="text-size-lg">Have a project in mind<br>
                             or Business inquiry? Drop us a line.</p>
                         <p>There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form by injected humour.</p>
+                        <img src="../images/contact-img.png" alt="image">
                     </div>
                     <!-- column 1 starts --> 
                     

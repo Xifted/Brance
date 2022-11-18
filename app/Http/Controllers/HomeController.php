@@ -26,7 +26,7 @@ class HomeController extends Controller
             'pesan'=>$request->input('pesan')
         ];
         
-        Mail::to("oneisfirst01@gmail.com")->send(new BranceEmail($data));
+        Mail::to("contact@example.com")->send(new BranceEmail($data));
         return redirect('/#contact');
     }
 }
