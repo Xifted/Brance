@@ -13,9 +13,9 @@ class GetDataRepository
         try {
             $client = new Client();
             $guzzleResponse = $client->get(
-                    'https://staging.api.cms-magang1.62dev.net/api/v1/contents?type=pagination&content_type=' . $params, [
+                    '' . $params, [
                     'headers' => [
-                        'x-site'=>'1eade900-9633-47ba-89b6-2d04c65a8586'
+                        'x-site'=>''
                     ],
                 ]);
             if ($guzzleResponse->getStatusCode() == 200) {
